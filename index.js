@@ -128,5 +128,3 @@ exports.install = function(Vue, globalOptions, customFields) {
 
 
 }
-
-

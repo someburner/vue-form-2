@@ -1,7 +1,8 @@
 {
-  "name": "vue-form-2",
-  "version": "0.1.56",
-  "description": "Vue.js 2 form component",
+  "name": "vue-form-2-someburner",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Vue.js 2 form component with mods",
   "main": "index.js",
   "scripts": {
     "build-min": "browserify index.js --s VueForm | uglifyjs -c > dist/vue-form-2.min.js",
@@ -9,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matfish2/vue-form-2.git"
+    "url": "git+https://github.com/someburner/vue-form-2.git"
   },
   "keywords": [
     "vuejs2",
@@ -33,7 +34,7 @@
     "bus.js"
   ],
   "dependencies": {
-    "vue": ">=2.0.0",
+    "vue": ">=2.1.0",
     "vue-resource": ">=0.9.0",
     "clone": "^1.0.2",
     "merge": "^1.2.0",
