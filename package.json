@@ -1,9 +1,9 @@
 {
   "name": "vue-form-2-someburner",
-  "version": "0.2.0",
+  "version": "0.1.66",
   "private": true,
-  "description": "Vue.js 2 form component with mods",
-  "main": "index.js",
+  "description": "Vue.js 2 form component (fork)",
+  "main": "main.js",
   "scripts": {
     "build-min": "browserify index.js --s VueForm | uglifyjs -c > dist/vue-form-2.min.js",
     "build": "browserify index.js --s VueForm > dist/vue-form-2.js"
@@ -31,6 +31,7 @@
   "files": [
     "lib",
     "index.js",
+    "main.js",
     "bus.js"
   ],
   "dependencies": {
