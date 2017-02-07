@@ -30,6 +30,7 @@
   "homepage": "https://github.com/matfish2/vue-form-2#readme",
   "files": [
     "lib",
+    ".babelrc",
     "index.js",
     "main.js",
     "bus.js"
